@@ -1,0 +1,15 @@
+from	sklearn	import	LinearRegression 
+#Creating	the	regression	model 
+linear_regression_model	=	LinearRegression()
+
+#Let,	house_sizes	=	Contains	all	size	of	house 
+#house_price	=	Contains	all	price	of	house
+
+#Training	the	model 
+linear_regression_model.fit(house_sizes,	house_prices)
+
+#predicted	value 
+""" 
+Here,	test_house_size	is	a	variable	which	is	not	a	member	of	training	data,	rather	a	unique	one
+ """ 
+ predicted_price	=	linear_regression_model.predict(test_house_size)

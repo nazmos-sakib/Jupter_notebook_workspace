@@ -1,0 +1,19 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+#do ploting inline
+
+%matplotlib inline
+
+#load and review data
+
+data_frame = pd.read_csv('C:\Users\sakib\Documents\ml-pl\pima-data.csv')
+
+data_frame.shape
+
+data_frame.head(3)
+data_frame.head(10)
+data_frame.isnull()
+data_frame.isnull().values
+print data_frame.isnull().values.any() //false means no empty cell is present

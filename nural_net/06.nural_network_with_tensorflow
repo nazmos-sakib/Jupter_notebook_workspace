@@ -1,0 +1,15 @@
+asd = ['/home/sakib/Jupter_notebook_workspace/nural_net',
+ '/home/sakib/anaconda3/lib/python37.zip',
+ '/home/sakib/anaconda3/lib/python3.7',
+ '/home/sakib/anaconda3/lib/python3.7/lib-dynload',
+ '',
+ '/home/sakib/anaconda3/lib/python3.7/site-packages',
+ '/home/sakib/anaconda3/lib/python3.7/site-packages/IPython/extensions',
+ '/home/sakib/.ipython']
+
+import sys
+for i in asd:
+	sys.path.append(i)
+
+import matplotlib
+

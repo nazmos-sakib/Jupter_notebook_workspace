@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/sakib/.cache/gnome-builder/install/Iris-Neural-Network-master/host
+app-id=
+postbuild=
+prebuild=
+default=true
