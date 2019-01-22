@@ -1,0 +1,303 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,num
+Above 60,male,asymptomatic,148-174,250-350,FALSE,hypertrophy,104-136,yes,0-1.55,flat ,3,normal,yes
+Above 60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,2,reversable ,yes
+31-45,male,non-anginal,121-147,150-250,FALSE,normal,170-202,no,3.12-4.67,downsloping ,0,normal,no
+31-45,female,atypical,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,atypical,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,female,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,no,3.12-4.67,downsloping ,2,normal,yes
+46-60,female,asymptomatic,94-120,Above 350,FALSE,normal,137-169,yes,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,1,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,TRUE,hypertrophy,137-169,yes,1.56-3.11,downsloping ,0,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,137-169,no,0-1.55,flat ,0,fixed,no
+46-60,female,atypical,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,normal,no
+46-60,male,non-anginal,121-147,250-350,TRUE,hypertrophy,137-169,yes,0-1.55,flat ,1,fixed,yes
+31-45,male,atypical,94-120,250-350,FALSE,normal,170-202,no,0-1.55,upsloping ,0,reversable ,no
+46-60,male,non-anginal,148-174,150-250,TRUE,normal,137-169,no,0-1.55,upsloping ,0,reversable ,no
+46-60,male,non-anginal,148-174,150-250,FALSE,normal,170-202,no,1.56-3.11,upsloping ,0,normal,no
+46-60,male,atypical,94-120,150-250,FALSE,normal,137-169,no,0-1.55,downsloping ,0,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,female,non-anginal,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,atypical,121-147,250-350,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,typical,94-120,150-250,FALSE,hypertrophy,137-169,yes,1.56-3.11,flat ,0,normal,no
+46-60,female,typical,148-174,250-350,TRUE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,atypical,94-120,250-350,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,0,normal,yes
+46-60,male,non-anginal,121-147,150-250,FALSE,hypertrophy,170-202,no,3.12-4.67,upsloping ,2,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,2,reversable ,yes
+46-60,female,non-anginal,94-120,150-250,FALSE,normal,137-169,no,1.56-3.11,flat ,0,normal,no
+46-60,female,non-anginal,94-120,250-350,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,female,typical,148-174,150-250,FALSE,normal,104-136,no,1.56-3.11,downsloping ,0,normal,no
+31-45,male,asymptomatic,148-174,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,0,reversable ,yes
+Above 60,female,typical,121-147,150-250,FALSE,normal,137-169,no,1.56-3.11,upsloping ,2,normal,no
+46-60,male,asymptomatic,94-120,150-250,TRUE,normal,137-169,yes,0-1.55,upsloping ,2,reversable ,yes
+Above 60,male,non-anginal,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,137-169,no,0-1.55,flat ,0,reversable ,no
+31-45,male,non-anginal,121-147,150-250,FALSE,normal,170-202,yes,0-1.55,upsloping ,0,normal,no
+31-45,male,asymptomatic,121-147,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,0,reversable ,yes
+46-60,male,asymptomatic,148-174,250-350,FALSE,hypertrophy,104-136,yes,0-1.55,flat ,1,fixed,yes
+46-60,male,asymptomatic,121-147,Above 350,FALSE,normal,104-136,yes,0-1.55,flat ,1,reversable ,yes
+Above 60,male,non-anginal,148-174,150-250,TRUE,normal,137-169,yes,0-1.55,flat ,0,normal,no
+Above 60,female,asymptomatic,148-174,150-250,FALSE,hypertrophy,104-136,no,0-1.55,flat ,3,reversable ,yes
+31-45,male,typical,121-147,150-250,FALSE,normal,170-202,yes,0-1.55,upsloping ,0,reversable ,no
+Above 60,female,atypical,148-174,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,2,normal,no
+46-60,male,non-anginal,148-174,150-250,TRUE,normal,137-169,no,1.56-3.11,upsloping ,0,normal,no
+Above 60,female,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,yes
+46-60,male,non-anginal,94-120,150-250,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,1,reversable ,yes
+46-60,male,non-anginal,94-120,150-250,FALSE,normal,104-136,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,148-174,150-250,FALSE,hypertrophy,104-136,no,1.56-3.11,flat ,0,reversable ,yes
+Above 60,female,non-anginal,121-147,Above 350,TRUE,hypertrophy,137-169,no,0-1.55,upsloping ,1,normal,no
+46-60,male,non-anginal,121-147,150-250,TRUE,hypertrophy,137-169,no,0-1.55,downsloping ,0,normal,no
+31-45,female,atypical,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,1,normal,no
+Above 60,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,reversable ,no
+31-45,male,asymptomatic,94-120,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,1,normal,yes
+31-45,male,atypical,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,normal,137-169,yes,0-1.55,upsloping ,1,reversable ,yes
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,1,reversable ,yes
+46-60,male,non-anginal,121-147,150-250,FALSE,normal,137-169,no,0-1.55,flat ,1,reversable ,yes
+31-45,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,reversable ,yes
+46-60,male,non-anginal,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,downsloping ,1,normal,no
+46-60,male,typical,121-147,150-250,FALSE,hypertrophy,104-136,yes,0-1.55,upsloping ,1,normal,no
+46-60,female,asymptomatic,121-147,250-350,FALSE,normal,137-169,yes,0-1.55,flat ,0,reversable ,yes
+46-60,female,non-anginal,121-147,150-250,FALSE,hypertrophy,137-169,yes,0-1.55,downsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,3,reversable ,yes
+46-60,female,non-anginal,121-147,250-350,TRUE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,94-120,150-250,FALSE,normal,104-136,no,0-1.55,flat ,1,reversable ,yes
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,yes,1.56-3.11,flat ,2,reversable ,yes
+46-60,male,non-anginal,121-147,150-250,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,0,normal,yes
+46-60,male,non-anginal,148-174,150-250,FALSE,hypertrophy,137-169,no,1.56-3.11,upsloping ,0,reversable ,no
+46-60,male,asymptomatic,148-174,250-350,FALSE,hypertrophy,137-169,yes,3.12-4.67,downsloping ,0,reversable ,yes
+46-60,male,non-anginal,148-174,150-250,FALSE,normal,137-169,no,3.12-4.67,flat ,0,normal,yes
+Above 60,female,non-anginal,148-174,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,121-147,250-350,TRUE,normal,137-169,no,0-1.55,flat ,2,reversable ,yes
+Above 60,male,asymptomatic,94-120,250-350,FALSE,normal,71-103,yes,1.56-3.11,flat ,2,reversable ,yes
+Above 60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,2,fixed,yes
+31-45,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,1,normal,yes
+Above 60,female,non-anginal,148-174,Above 350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,yes,1.56-3.11,flat ,1,reversable ,yes
+46-60,female,non-anginal,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,1,normal,no
+46-60,male,atypical,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,flat ,0,normal,no
+46-60,male,asymptomatic,148-174,250-350,FALSE,hypertrophy,104-136,yes,0-1.55,upsloping ,0,reversable ,yes
+31-45,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,137-169,yes,1.56-3.11,flat ,0,normal,no
+46-60,female,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,normal,no
+31-45,male,non-anginal,121-147,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,non-anginal,175-201,250-350,TRUE,hypertrophy,137-169,yes,1.56-3.11,flat ,0,reversable ,yes
+46-60,male,atypical,94-120,250-350,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,non-anginal,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,non-anginal,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,female,non-anginal,121-147,150-250,FALSE,hypertrophy,104-136,no,0-1.55,upsloping ,0,?,no
+46-60,female,asymptomatic,121-147,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,female,non-anginal,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,94-120,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,normal,no
+Above 60,female,asymptomatic,148-174,150-250,FALSE,hypertrophy,137-169,no,4.68-6.23,downsloping ,3,reversable ,yes
+Above 60,male,non-anginal,121-147,150-250,FALSE,normal,137-169,no,1.56-3.11,flat ,3,reversable ,no
+31-45,female,non-anginal,94-120,below 150,FALSE,normal,170-202,no,0-1.55,flat ,0,normal,no
+Above 60,female,non-anginal,121-147,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,normal,137-169,yes,0-1.55,upsloping ,1,reversable ,yes
+46-60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,1,reversable ,yes
+46-60,female,asymptomatic,148-174,250-350,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,2,reversable ,yes
+46-60,male,atypical,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,1,normal,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,asymptomatic,94-120,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,typical,94-120,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,female,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,1,normal,no
+Above 60,female,non-anginal,94-120,250-350,TRUE,hypertrophy,104-136,no,0-1.55,upsloping ,1,normal,no
+46-60,male,non-anginal,94-120,150-250,FALSE,normal,137-169,no,1.56-3.11,flat ,3,reversable ,yes
+46-60,male,atypical,94-120,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,reversable ,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,137-169,yes,0-1.55,upsloping ,1,reversable ,yes
+46-60,male,non-anginal,121-147,150-250,FALSE,hypertrophy,137-169,no,0-1.55,flat ,1,reversable ,yes
+Above 60,male,asymptomatic,94-120,250-350,FALSE,normal,137-169,yes,3.12-4.67,flat ,1,reversable ,yes
+31-45,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,flat ,0,reversable ,yes
+Above 60,female,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,0,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,TRUE,hypertrophy,137-169,yes,0-1.55,flat ,1,normal,yes
+46-60,male,typical,94-120,150-250,FALSE,hypertrophy,170-202,no,0-1.55,flat ,0,fixed,no
+31-45,female,asymptomatic,121-147,250-350,TRUE,hypertrophy,104-136,yes,1.56-3.11,flat ,0,reversable ,yes
+Above 60,female,non-anginal,121-147,250-350,FALSE,normal,71-103,no,0-1.55,flat ,1,reversable ,yes
+31-45,male,atypical,121-147,150-250,FALSE,normal,104-136,no,0-1.55,flat ,0,fixed,no
+46-60,male,non-anginal,121-147,150-250,TRUE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+31-45,female,asymptomatic,121-147,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,121-147,250-350,TRUE,hypertrophy,104-136,yes,1.56-3.11,upsloping ,3,reversable ,yes
+Above 60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,104-136,no,1.56-3.11,flat ,1,reversable ,yes
+46-60,male,asymptomatic,121-147,250-350,TRUE,hypertrophy,137-169,yes,0-1.55,upsloping ,2,reversable ,yes
+Above 60,female,asymptomatic,148-174,Above 350,FALSE,hypertrophy,137-169,no,3.12-4.67,flat ,3,reversable ,yes
+46-60,male,non-anginal,94-120,150-250,FALSE,normal,137-169,yes,0-1.55,flat ,0,normal,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,104-136,yes,4.68-6.23,downsloping ,0,reversable ,yes
+Above 60,male,typical,121-147,250-350,TRUE,hypertrophy,170-202,no,0-1.55,flat ,1,normal,yes
+31-45,female,atypical,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,flat ,0,normal,no
+46-60,female,asymptomatic,175-201,250-350,TRUE,hypertrophy,104-136,yes,3.12-4.67,downsloping ,2,reversable ,yes
+46-60,male,asymptomatic,94-120,150-250,FALSE,normal,104-136,yes,1.56-3.11,flat ,1,reversable ,yes
+31-45,male,atypical,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,female,asymptomatic,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,non-anginal,94-120,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,reversable ,no
+46-60,male,non-anginal,94-120,150-250,FALSE,normal,137-169,yes,0-1.55,upsloping ,1,reversable ,no
+below 30,male,atypical,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,170-202,yes,0-1.55,upsloping ,0,normal,no
+31-45,female,non-anginal,121-147,150-250,FALSE,normal,137-169,no,0-1.55,flat ,0,normal,no
+46-60,female,atypical,121-147,150-250,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,normal,no
+Above 60,male,asymptomatic,121-147,150-250,FALSE,normal,104-136,yes,1.56-3.11,downsloping ,0,reversable ,yes
+Above 60,male,atypical,94-120,250-350,FALSE,hypertrophy,71-103,no,0-1.55,flat ,1,reversable ,yes
+31-45,male,asymptomatic,94-120,150-250,FALSE,normal,104-136,yes,1.56-3.11,flat ,0,reversable ,yes
+46-60,male,non-anginal,121-147,150-250,TRUE,hypertrophy,137-169,no,1.56-3.11,flat ,0,normal,no
+46-60,male,atypical,121-147,150-250,FALSE,normal,137-169,yes,0-1.55,upsloping ,0,normal,no
+46-60,male,typical,148-174,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,reversable ,yes
+46-60,male,atypical,121-147,150-250,TRUE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,non-anginal,121-147,250-350,FALSE,normal,104-136,yes,1.56-3.11,flat ,0,reversable ,yes
+46-60,male,non-anginal,94-120,150-250,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,0,reversable ,no
+46-60,male,non-anginal,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,yes
+46-60,male,asymptomatic,148-174,250-350,TRUE,hypertrophy,104-136,no,0-1.55,flat ,3,reversable ,yes
+31-45,male,non-anginal,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,atypical,121-147,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,female,non-anginal,94-120,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,1,normal,no
+46-60,male,typical,148-174,250-350,TRUE,normal,170-202,no,0-1.55,flat ,0,reversable ,no
+31-45,female,asymptomatic,94-120,250-350,FALSE,hypertrophy,104-136,no,0-1.55,flat ,0,normal,no
+Above 60,female,non-anginal,94-120,Above 350,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,0,reversable ,no
+46-60,male,asymptomatic,148-174,250-350,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,1,reversable ,yes
+Above 60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,71-103,yes,1.56-3.11,downsloping ,1,normal,yes
+Above 60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,104-136,no,1.56-3.11,flat ,3,normal,yes
+46-60,male,asymptomatic,121-147,250-350,FALSE,normal,170-202,yes,1.56-3.11,upsloping ,0,reversable ,yes
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,2,reversable ,yes
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,170-202,no,0-1.55,flat ,2,reversable ,yes
+Above 60,male,non-anginal,94-120,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,1,reversable ,no
+46-60,male,atypical,94-120,150-250,TRUE,normal,137-169,no,0-1.55,upsloping ,0,reversable ,no
+Above 60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,yes,0-1.55,upsloping ,3,normal,yes
+46-60,female,non-anginal,94-120,150-250,FALSE,normal,137-169,no,1.56-3.11,flat ,0,normal,no
+46-60,female,asymptomatic,94-120,150-250,FALSE,hypertrophy,104-136,no,0-1.55,flat ,0,normal,no
+46-60,male,non-anginal,121-147,250-350,TRUE,normal,170-202,no,0-1.55,upsloping ,2,normal,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,137-169,yes,0-1.55,upsloping ,0,reversable ,no
+46-60,male,non-anginal,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,?,normal,no
+46-60,female,atypical,121-147,250-350,TRUE,hypertrophy,137-169,yes,0-1.55,upsloping ,1,normal,no
+31-45,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,yes,0-1.55,upsloping ,0,reversable ,yes
+31-45,female,atypical,94-120,150-250,FALSE,normal,137-169,no,0-1.55,flat ,0,normal,no
+Above 60,male,non-anginal,148-174,250-350,FALSE,normal,104-136,yes,1.56-3.11,flat ,1,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,yes,0-1.55,upsloping ,0,reversable ,no
+46-60,female,asymptomatic,148-174,150-250,FALSE,normal,137-169,yes,0-1.55,flat ,0,normal,yes
+Above 60,female,asymptomatic,121-147,Above 350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,normal,no
+Above 60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,no,1.56-3.11,flat ,2,fixed,yes
+46-60,male,asymptomatic,148-174,250-350,FALSE,normal,71-103,yes,0-1.55,flat ,1,reversable ,yes
+46-60,male,asymptomatic,94-120,150-250,TRUE,normal,137-169,no,0-1.55,upsloping ,3,reversable ,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,1,fixed,yes
+31-45,male,non-anginal,121-147,250-350,FALSE,normal,137-169,no,1.56-3.11,upsloping ,1,normal,no
+46-60,male,non-anginal,121-147,150-250,TRUE,hypertrophy,170-202,no,0-1.55,upsloping ,3,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,reversable ,yes
+46-60,female,asymptomatic,121-147,Above 350,FALSE,hypertrophy,137-169,yes,1.56-3.11,flat ,2,reversable ,yes
+31-45,male,typical,148-174,150-250,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,2,normal,no
+46-60,male,typical,175-201,250-350,FALSE,hypertrophy,137-169,no,3.12-4.67,downsloping ,0,reversable ,no
+46-60,female,asymptomatic,148-174,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,yes
+Above 60,female,atypical,121-147,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,2,normal,no
+31-45,male,non-anginal,94-120,150-250,TRUE,normal,170-202,no,0-1.55,downsloping ,0,reversable ,no
+Above 60,male,atypical,148-174,150-250,FALSE,normal,104-136,yes,0-1.55,flat ,3,fixed,yes
+46-60,male,atypical,175-201,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,1,reversable ,yes
+Above 60,male,non-anginal,121-147,250-350,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,3,reversable ,yes
+46-60,male,non-anginal,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,normal,104-136,yes,3.12-4.67,flat ,3,reversable ,yes
+31-45,male,asymptomatic,121-147,150-250,TRUE,hypertrophy,137-169,yes,0-1.55,flat ,?,reversable ,yes
+Above 60,female,asymptomatic,121-147,250-350,TRUE,normal,104-136,no,1.56-3.11,flat ,3,normal,yes
+Above 60,female,non-anginal,94-120,150-250,FALSE,hypertrophy,104-136,no,0-1.55,flat ,0,normal,no
+Above 60,male,asymptomatic,94-120,250-350,FALSE,hypertrophy,104-136,yes,0-1.55,flat ,2,normal,yes
+Above 60,male,typical,148-174,150-250,TRUE,hypertrophy,104-136,no,0-1.55,flat ,1,normal,no
+31-45,female,asymptomatic,121-147,150-250,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,0,normal,no
+46-60,female,atypical,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,typical,148-174,250-350,FALSE,hypertrophy,104-136,no,0-1.55,upsloping ,0,normal,yes
+46-60,female,asymptomatic,94-120,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,female,asymptomatic,175-201,250-350,FALSE,normal,137-169,yes,0-1.55,upsloping ,0,normal,no
+46-60,male,non-anginal,148-174,below 150,TRUE,normal,170-202,no,0-1.55,upsloping ,1,reversable ,no
+Above 60,female,non-anginal,121-147,250-350,FALSE,normal,104-136,no,0-1.55,upsloping ,0,reversable ,no
+31-45,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,reversable ,no
+31-45,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,3,reversable ,yes
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,104-136,yes,1.56-3.11,flat ,2,reversable ,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,yes,0-1.55,flat ,0,reversable ,yes
+46-60,male,atypical,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,female,asymptomatic,148-174,150-250,FALSE,normal,137-169,yes,0-1.55,flat ,0,normal,yes
+31-45,female,non-anginal,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,typical,94-120,150-250,FALSE,normal,170-202,yes,3.12-4.67,flat ,0,reversable ,yes
+31-45,male,non-anginal,121-147,150-250,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,0,normal,no
+Above 60,female,asymptomatic,175-201,150-250,TRUE,normal,137-169,yes,0-1.55,flat ,2,reversable ,yes
+46-60,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,1,normal,yes
+46-60,male,typical,94-120,150-250,FALSE,hypertrophy,137-169,no,1.56-3.11,flat ,0,reversable ,no
+46-60,female,atypical,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,female,asymptomatic,121-147,150-250,FALSE,hypertrophy,137-169,yes,0-1.55,flat ,0,normal,no
+Above 60,female,asymptomatic,121-147,250-350,FALSE,normal,104-136,no,1.56-3.11,flat ,2,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,female,non-anginal,94-120,250-350,FALSE,hypertrophy,170-202,yes,0-1.55,upsloping ,0,normal,no
+46-60,female,non-anginal,94-120,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+31-45,female,non-anginal,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,normal,71-103,yes,1.56-3.11,flat ,2,reversable ,yes
+Above 60,female,asymptomatic,94-120,250-350,FALSE,normal,137-169,yes,1.56-3.11,flat ,2,normal,yes
+31-45,female,atypical,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,female,non-anginal,148-174,250-350,FALSE,normal,170-202,no,0-1.55,upsloping ,1,normal,no
+46-60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,104-136,yes,0-1.55,flat ,1,normal,yes
+Above 60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,104-136,yes,0-1.55,upsloping ,1,normal,yes
+46-60,female,non-anginal,121-147,150-250,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,normal,no
+46-60,female,asymptomatic,175-201,250-350,FALSE,ST-T wave,104-136,yes,3.12-4.67,flat ,0,normal,yes
+46-60,male,non-anginal,94-120,below 150,FALSE,hypertrophy,104-136,no,0-1.55,upsloping ,3,normal,yes
+Above 60,female,atypical,94-120,250-350,FALSE,hypertrophy,104-136,yes,0-1.55,upsloping ,1,normal,no
+46-60,female,non-anginal,148-174,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,1,normal,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,hypertrophy,104-136,yes,3.12-4.67,flat ,2,normal,yes
+46-60,male,asymptomatic,121-147,250-350,TRUE,hypertrophy,71-103,yes,1.56-3.11,downsloping ,0,reversable ,yes
+46-60,male,asymptomatic,94-120,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,reversable ,yes
+46-60,female,atypical,121-147,250-350,FALSE,normal,137-169,no,0-1.55,flat ,0,normal,no
+31-45,male,atypical,94-120,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+31-45,male,atypical,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+31-45,female,atypical,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,female,asymptomatic,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,typical,121-147,150-250,FALSE,normal,137-169,no,1.56-3.11,flat ,2,normal,yes
+46-60,female,non-anginal,94-120,150-250,TRUE,normal,71-103,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,94-120,150-250,FALSE,normal,71-103,no,0-1.55,flat ,0,normal,yes
+46-60,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,1,reversable ,yes
+46-60,male,asymptomatic,94-120,250-350,FALSE,hypertrophy,104-136,yes,0-1.55,flat ,1,normal,yes
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,2,reversable ,yes
+Above 60,male,atypical,121-147,150-250,TRUE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,94-120,150-250,FALSE,normal,104-136,yes,0-1.55,flat ,0,fixed,no
+46-60,male,asymptomatic,121-147,150-250,FALSE,normal,104-136,no,1.56-3.11,flat ,1,reversable ,yes
+Above 60,male,asymptomatic,121-147,250-350,FALSE,normal,104-136,yes,0-1.55,flat ,1,reversable ,no
+46-60,female,non-anginal,94-120,250-350,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+31-45,male,asymptomatic,94-120,250-350,FALSE,normal,170-202,no,0-1.55,flat ,0,normal,no
+31-45,female,non-anginal,94-120,150-250,FALSE,normal,170-202,no,0-1.55,flat ,0,normal,no
+Above 60,female,asymptomatic,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,2,normal,no
+Above 60,female,non-anginal,121-147,150-250,FALSE,ST-T wave,104-136,no,0-1.55,flat ,0,normal,no
+Above 60,male,atypical,148-174,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,normal,no
+46-60,male,atypical,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,reversable ,yes
+31-45,female,non-anginal,94-120,150-250,FALSE,normal,137-169,no,0-1.55,flat ,1,normal,no
+46-60,female,atypical,121-147,250-350,TRUE,hypertrophy,137-169,no,0-1.55,upsloping ,2,normal,yes
+46-60,female,typical,148-174,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+31-45,male,non-anginal,94-120,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,104-136,yes,3.12-4.67,flat ,1,normal,yes
+31-45,male,asymptomatic,121-147,250-350,FALSE,normal,104-136,yes,1.56-3.11,flat ,0,fixed,yes
+46-60,male,asymptomatic,121-147,150-250,TRUE,normal,137-169,yes,0-1.55,flat ,0,?,yes
+46-60,male,non-anginal,121-147,150-250,TRUE,normal,104-136,no,1.56-3.11,flat ,1,fixed,yes
+31-45,male,asymptomatic,148-174,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,reversable ,yes
+31-45,male,non-anginal,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,137-169,yes,1.56-3.11,upsloping ,1,reversable ,yes
+Above 60,male,asymptomatic,148-174,150-250,FALSE,hypertrophy,137-169,no,1.56-3.11,upsloping ,0,fixed,no
+46-60,male,asymptomatic,121-147,250-350,FALSE,normal,104-136,yes,1.56-3.11,flat ,2,reversable ,yes
+Above 60,female,asymptomatic,94-120,below 150,FALSE,normal,104-136,no,1.56-3.11,flat ,0,normal,no
+46-60,male,typical,121-147,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,2,normal,yes
+Above 60,male,typical,148-174,150-250,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,reversable ,no
+Above 60,female,non-anginal,121-147,250-350,FALSE,hypertrophy,137-169,no,0-1.55,flat ,1,normal,no
+31-45,female,non-anginal,121-147,150-250,FALSE,normal,137-169,no,0-1.55,flat ,0,normal,no
+46-60,male,atypical,148-174,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,1,normal,yes
+46-60,female,asymptomatic,121-147,150-250,FALSE,normal,104-136,no,0-1.55,flat ,0,normal,no
+46-60,male,asymptomatic,94-120,250-350,FALSE,normal,137-169,yes,1.56-3.11,flat ,1,reversable ,yes
+46-60,male,non-anginal,121-147,250-350,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,female,asymptomatic,121-147,150-250,FALSE,ST-T wave,104-136,yes,1.56-3.11,flat ,1,reversable ,yes
+31-45,male,atypical,121-147,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+Above 60,male,asymptomatic,148-174,150-250,FALSE,normal,137-169,no,0-1.55,upsloping ,1,reversable ,yes
+46-60,male,asymptomatic,94-120,250-350,FALSE,ST-T wave,137-169,no,3.12-4.67,downsloping ,3,fixed,yes
+46-60,female,asymptomatic,148-174,150-250,TRUE,hypertrophy,137-169,yes,1.56-3.11,flat ,2,fixed,yes
+46-60,male,atypical,121-147,150-250,FALSE,normal,137-169,no,0-1.55,flat ,?,reversable ,no
+46-60,male,atypical,121-147,150-250,FALSE,hypertrophy,137-169,no,0-1.55,upsloping ,0,reversable ,no
+46-60,male,atypical,94-120,150-250,FALSE,normal,137-169,no,0-1.55,downsloping ,0,normal,no
+Above 60,male,non-anginal,148-174,150-250,FALSE,hypertrophy,137-169,no,0-1.55,flat ,0,reversable ,yes
+46-60,female,atypical,121-147,250-350,FALSE,normal,137-169,no,0-1.55,upsloping ,0,normal,no
+31-45,male,asymptomatic,94-120,150-250,FALSE,normal,137-169,yes,1.56-3.11,downsloping ,0,fixed,yes
+Above 60,male,asymptomatic,121-147,150-250,FALSE,hypertrophy,137-169,yes,3.12-4.67,upsloping ,2,reversable ,yes
+Above 60,female,asymptomatic,121-147,150-250,FALSE,normal,104-136,yes,0-1.55,flat ,0,normal,yes
+31-45,male,atypical,94-120,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,0,normal,no
+46-60,male,asymptomatic,148-174,150-250,TRUE,hypertrophy,71-103,no,0-1.55,flat ,2,fixed,yes
+46-60,female,asymptomatic,121-147,150-250,FALSE,normal,104-136,yes,0-1.55,flat ,0,reversable ,yes
+31-45,male,typical,94-120,250-350,FALSE,normal,104-136,no,0-1.55,flat ,0,reversable ,yes
+Above 60,male,asymptomatic,121-147,150-250,TRUE,normal,137-169,no,3.12-4.67,flat ,2,reversable ,yes
+46-60,male,asymptomatic,121-147,below 150,FALSE,normal,104-136,yes,0-1.55,flat ,1,reversable ,yes
+46-60,female,atypical,121-147,150-250,FALSE,hypertrophy,170-202,no,0-1.55,flat ,1,normal,yes
+31-45,male,non-anginal,121-147,150-250,FALSE,normal,170-202,no,0-1.55,upsloping ,?,normal,no
