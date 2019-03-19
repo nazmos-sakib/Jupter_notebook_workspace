@@ -75,6 +75,7 @@
 
 	<p id = "gretting"></p>
 
+	<h1 id = "prediction"></h1>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -110,8 +111,9 @@
 				palpitation: $("input[name='Palpitation']:checked").val(),
 				ECG: $("input[name='ECG']:checked").val()
 			}
-			$.post("http://127.0.0.1:5000/hello",JSON.stringify(message),function(response){
+			$.post("http://0.0.0.0:5000/hello",JSON.stringify(message),function(response){
 				$("#gretting").text(response.gretting);
+				$("#prediction").text(response.prediction);
 				console.log(response);
 			});
 		});
