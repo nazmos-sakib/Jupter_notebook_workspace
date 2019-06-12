@@ -1,0 +1,301 @@
+<!DOCKTYPE html>
+<html>
+<head>
+	<title>
+		Omicron
+	</title>
+	<style type="text/css">
+		*{
+			font-size: 12px
+
+		}
+
+		#div1{
+			background-color: #008b8b;
+			background-image: linear-gradient(#00ffff,#008b8b);
+			height: 30%;
+			width: 100%
+		}
+
+		#div2{
+			margin: 2% 25% 0% 25%;
+			background-color: white;
+			border-radius: 10px;
+			
+			
+		}
+		#div3{
+			float: left;
+			clear: left;
+		}
+		#div4{
+			float: left;
+			
+		}
+		#div5{
+			float: none;
+			clear: both;
+			margin: 7% 25% 2% 35%;
+			padding-top: 20px;
+		}
+
+		body{
+			background-image: url(syringe_1884784.jpg);
+			background-size: cover;
+			background-position: center; 
+			color:green;
+		}
+
+		.forInputDiv1{
+			border: 2px outset;
+			border-radius: 8px;
+			padding-left: 40px;
+			padding-bottom: 15px;
+			padding-right: 10px;
+			padding-top: 10px;
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-right: 20px;
+			
+		}
+
+		.forInputDiv2{
+			border: 2px outset;
+			border-radius: 8px;
+			padding-left: 40px;
+			padding-bottom: 15px;
+			padding-right: 10px;
+			padding-top: 10px;
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-right: 10px;
+			width: 100%
+		}
+
+		input[type=number]{
+			width: 100%;
+			padding: 12px 20px;
+		}
+
+		input[type=number]:focus{
+			background-color: lightblue;
+		}
+		
+		#h1{
+			overflow: auto; 
+			font-size: 50px;
+			padding:3% 0% 0% 30%;
+			color: #ff3333;
+		}
+
+		.predict{
+			font-size: 20px;
+			padding:2% 0% 0% 20%;
+			color: #ff3333;
+		}
+
+		#logInId{
+			float: right;
+			margin-right: 1%;
+			border: 2px outset;
+			border-radius: 8px;
+			width: 5%;
+			padding-left:30px;
+		}
+
+		button{
+			background-color: #4caf50;
+			border:none;
+			color: white;
+			padding: 15px 32px;
+			text-align:center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin:4px 2px;
+			cursor:pointer;
+			-webkit-transition-duration:0.4s;
+			transition-duration: 0.4s;
+		}
+
+		button:hover{
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+
+	</style>
+</head>
+
+<body >
+
+	<div id='div1'>
+		<a href="http://127.0.0.1:5000/login" ><p id="logInId">log In</p></a>
+		<a href="http://127.0.0.1:5000/"><img src="human-heart-1700453.png" height="100%" width="10%" style="float: left;"></a>
+		<h1 id="h1">Omicron</h1>
+		
+		
+	</div>
+
+	<div>
+		<p>Wellcome to Omicron. Predict Ischemic Heart Disease with our advanced DeepLearning technique. We have 86% accuracy</p>
+	</div>
+
+	<div id='div2'>
+		
+		<div id="div3">
+			<div class="forInputDiv1">
+				<P>Input Age</P>
+				<input type="number" id = "age-input">
+			</div>
+
+			<div class="forInputDiv1">
+				<p>Select Gender</p>
+				<input type="radio" name="gender" value="male" checked> Male<br>
+			    <input type="radio" name="gender" value="female"> Female<br>
+			</div>
+
+
+		    <div class="forInputDiv1">
+		    	<p>Do you have smoking habit?</p>
+			    <input type="radio" name="smoking" value="no" checked> NO<br>
+			    <input type="radio" name="smoking" value="yes"> YES<br>
+			    <input type="radio" name="smoking" value="ex"> USED TO SMOKE<br>
+		    </div>
+
+
+		    <div class="forInputDiv1">
+		    	<p>Do You have high Blood Presure(HTN)</p>
+			    <input type="radio" name="HTN" value="no" checked> NO<br>
+			    <input type="radio" name="HTN" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv1">
+		    	<p>DPL</p>
+			    <input type="radio" name="DPL" value="no" checked> NO<br>
+			    <input type="radio" name="DPL" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv1">
+		    	<p>DM</p>
+			    <input type="radio" name="DM" value="no" checked> NO<br>
+			    <input type="radio" name="DM" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv1">
+		    	<p>Physical Exercise?</p>
+			    <input type="radio" name="Physical Exercise" value="no" checked> NO<br>
+			    <input type="radio" name="Physical Exercise" value="yes"> YES<br>
+		    </div>
+
+		</div>
+
+	    <div id="div4">
+	    	<div class="forInputDiv2">
+			   	<p>Family History?</p>
+			    <input type="radio" name="Family History" value="no" checked> NO<br>
+			    <input type="radio" name="Family History" value="yes"> YES<br>
+		   	</div>
+		    <div class="forInputDiv2">
+		    	<p>Drug History?</p>
+			    <input type="radio" name="Drug History" value="no" checked> NO<br>
+			    <input type="radio" name="Drug History" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv2">
+		    	<p>Psychological Stress?</p>
+			    <input type="radio" name="Psychological Stress" value="no" checked> NO<br>
+			    <input type="radio" name="Psychological Stress" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv2">
+		    	<p>Chest Pain?</p>
+			    <input type="radio" name="Chest Pain" value="no" checked> NO<br>
+			    <input type="radio" name="Chest Pain" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv2">
+		    	<p>Dyspnea</p>
+			    <input type="radio" name="Dyspnea" value="no" checked> NO<br>
+			    <input type="radio" name="Dyspnea" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv2">
+		    	<p>Palpitation</p>
+			    <input type="radio" name="Palpitation" value="no" checked> NO<br>
+			    <input type="radio" name="Palpitation" value="yes"> YES<br>
+		    </div>
+
+		    <div class="forInputDiv2">
+		    	<p>ECG</p>
+			    <input type="radio" name="ECG" value="abnormal" checked> Abnormal<br>
+			    <input type="radio" name="ECG" value="normal"> Normal<br>
+		    </div>
+	    </div>
+
+
+		<div id="div5">
+			<div>
+				<button id='name-button'>Predict Result</button>
+			</div>
+		</div>
+
+	</div>
+
+
+	
+	<div id="div1">
+		<div>
+			<p id = "gretting"></p>
+		</div>
+		
+		<div >
+			<h1 class='predict' id = "prediction"></h1>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script>
+
+		
+		$("#name-button").click(function(event){
+			 // Get the age value and trim it
+		    var name = $.trim($('#age-input').val());
+		    
+		    // Check if empty or not
+		    if (name  === '') {
+		        alert('Text-field is empty.');
+		        $("#gretting").text("");
+		        return false;
+		    }
+
+			let message = {
+				age: $("#age-input").val(),
+				gender: $("input[name='gender']:checked").val(),
+				smoking: $("input[name='smoking']:checked").val(),
+				HTN: $("input[name='HTN']:checked").val(),
+				DPL: $("input[name='DPL']:checked").val(),
+				DM: $("input[name='DM']:checked").val(),
+				physical_exercise:  $("input[name='Physical Exercise']:checked").val(),
+				family_history: $("input[name='Family History']:checked").val(),
+				drug_history: $("input[name='Drug History']:checked").val(),
+				psychological_stress: $("input[name='Psychological Stress']:checked").val(),
+				chest_pain: $("input[name='Chest Pain']:checked").val(),
+				dyspnea: $("input[name='Dyspnea']:checked").val(),
+				palpitation: $("input[name='Palpitation']:checked").val(),
+				ECG: $("input[name='ECG']:checked").val()
+			}
+			$.post("http://127.0.0.1:5000/hello",JSON.stringify(message),function(response){
+				$("#gretting").text(response.gretting);
+				$("#prediction").text(response.prediction);
+				console.log(response);
+
+			});
+		});
+
+	</script>
+
+
+</body>
+
+
+</html>
