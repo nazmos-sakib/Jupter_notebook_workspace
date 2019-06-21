@@ -175,7 +175,11 @@ def loginaction():
 	cur = mysql.connection.cursor()
 
 	# Database check email
-	qresult = cur.execute("""select email from member where email = %s""",(email,))
+	qresult = cur.execute("""select email from member where email = %s and password = %s""",(email,password))
+	qfresult = cur.fetchone()
+	#if len(qfresult) is 1:
+	#	do something
+	#
 	print(type(qresult))
 	if qresult <= 0:
 		respone = {
@@ -187,8 +191,8 @@ def loginaction():
 
 	#cur.execute("INSERT INTO member(email,first_name,last_name,password) VALUES(%s,%s,%s,%s)",(email,first_name,last_name,password))
 
-	#mysql.connection.commit()
-	#cur.close()
+	mysql.connection.commit()
+	cur.close()
 
 	respone = {
 		"flag" : 'yes'
