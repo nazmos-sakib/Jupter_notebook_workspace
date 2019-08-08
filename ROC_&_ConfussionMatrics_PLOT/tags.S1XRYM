@@ -1,0 +1,19 @@
+iris	plot_confusion_matrix.py	/^iris = datasets.load_iris()$/;"	v
+X	plot_confusion_matrix.py	/^X = iris.data$/;"	v
+y	plot_confusion_matrix.py	/^y = iris.target$/;"	v
+class_names	plot_confusion_matrix.py	/^class_names = iris.target_names$/;"	v
+classifier	plot_confusion_matrix.py	/^classifier = svm.SVC(kernel='linear', C=0.01)$/;"	v
+y_pred	plot_confusion_matrix.py	/^y_pred = classifier.fit(X_train, y_train).predict(X_test)$/;"	v
+plot_confusion_matrix	plot_confusion_matrix.py	/^def plot_confusion_matrix(cm, classes,$/;"	f
+cnf_matrix	plot_confusion_matrix.py	/^cnf_matrix = confusion_matrix(y_test, y_pred)$/;"	v
+title	plot_confusion_matrix.py	/^                      title='Confusion matrix, without normalization')$/;"	v
+title	plot_confusion_matrix.py	/^                      title='Normalized confusion matrix')$/;"	v
+main	roc2img.py	/^def main(argv=[__name__]):$/;"	f
+load_actives	roc2img.py	/^def load_actives(fname):$/;"	f
+load_scores	roc2img.py	/^def load_scores(fname):$/;"	f
+get_rates	roc2img.py	/^def get_rates(actives, scores):$/;"	f
+setup_ROC_curve_plot	roc2img.py	/^def setup_ROC_curve_plot(plt):$/;"	f
+save_ROC_curve_plot	roc2img.py	/^def save_ROC_curve_plot(plt, filename, randomline=True):$/;"	f
+depict_ROC_curve	roc2img.py	/^def depict_ROC_curve(actives, scores, label, color, filename, randomline=True):$/;"	f
+add_ROC_curve	roc2img.py	/^def add_ROC_curve(plt, actives, scores, color, label):$/;"	f
+is_supported_image_type	roc2img.py	/^def is_supported_image_type(ext):$/;"	f
