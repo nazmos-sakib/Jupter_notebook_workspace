@@ -2,8 +2,6 @@
 from flask import Flask,session,render_template,redirect,request,url_for,g
 from flask import jsonify
 
-from flask_session import Session
-
 import os
 
 #import neural models and functions
@@ -22,11 +20,6 @@ app = Flask(__name__, static_url_path='')
 
 #create a secriate key to work with session
 app.secret_key = os.urandom(24)
-
-
-app.config['SESSION_TYPE'] = 'filesystem'
-
-Session(app)
 
 #database
 from flask_mysqldb import MySQL
@@ -129,7 +122,7 @@ def login():
 	
 		#if email and password match then create session
 		#pop existing session values if exist
-		session.pop('user_email',None)
+		session.pop('user_email')
 		#create session
 		session['user_email'] = request.form['email']
 		g.user_email = session['user_email']
@@ -205,7 +198,7 @@ def logout():
 	#only of the user is log in
 	if g.user_email:
 		#delecte session value
-		session.pop('user_email',None)
+		session.pop('user_email')
 		return redirect(url_for('.index'))
 	return redirect(url_for('.index'))
 
